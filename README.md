@@ -5,7 +5,7 @@
 |---------------|--------------------|--------------------|--------|--------------|-----------|
 | country | Country | - | - | Country name | Categorical |
 | year | Year | - | - | Year | Numerical |
-| fdi | Foreign Direct Investment | Percentage of GDP | [World Bank World Development Indicators](https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS) | Foreign direct investment, net inflows, measured as a percentage of GDP. It represents the sum of equity capital, reinvestment of earnings, and other capital inflows. | Continuous |
+| fdi_bop_per_capita | Foreign Direct Investment Balance of Payment Per Capita| Sum | [World Bank World Development Indicators](https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS) | Foreign direct investment refers to direct investment equity flows in the reporting economy. It is the sum of equity capital, reinvestment of earnings, and other capital.  | Continuous |
 | gdp_cap | GDP per capita | Constant 2010 US$ | [World Bank World Development Indicators](https://data.worldbank.org/indicator/NY.GDP.PCAP.KD) | GDP per capita, measured in constant 2010 US dollars. It represents the gross domestic product divided by the midyear population. | Continuous |
 | trade_per_gdp | Trade | Percentage of GDP | [World Bank World Development Indicators](https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS) | Trade, measured as a percentage of GDP. It represents the sum of exports and imports of goods and services. | Continuous |
 | real_interest | Real Interest Rate | Percentage | [World Bank World Development Indicators](https://data.worldbank.org/indicator/FR.INR.RINR) | Real interest rate, adjusted for inflation as measured by the GDP deflator. It represents the lending interest rate adjusted for inflation. | Continuous |
